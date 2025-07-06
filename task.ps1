@@ -38,7 +38,7 @@ New-AzVm `
 -VirtualNetworkName $virtualNetworkName `
 -SecurityGroupName $networkSecurityGroupName `
 -SshKeyName $sshKeyName `
--PublicIpAddressName $publicIpAddressName `
+-PublicIpAddressName $publicIpAddressName 
 
 # ↓↓↓ Write your code here ↓↓↓
 
